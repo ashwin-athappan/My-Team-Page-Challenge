@@ -47,13 +47,13 @@ body {
   line-height: 27px;
 }
 
-.wrapper div[class^="card-"] p {
+.wrapper div[class^='card-'] p {
   position: relative;
   height: auto;
   width: auto;
 }
 
-.wrapper div[class^="card-"] p.role {
+.wrapper div[class^='card-'] p.role {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   font-family: 'PT Serif';
@@ -63,7 +63,7 @@ body {
   top: 110px;
 }
 
-.wrapper div[class^="card-"] p.name {
+.wrapper div[class^='card-'] p.name {
   font-family: 'Poppins';
   font-size: 18px;
   font-weight: 600;
@@ -141,5 +141,86 @@ body {
   background: url(./photo6.png) no-repeat;
   background-size: cover;
   background-origin: content-box;
+}
+
+@media only screen and (max-width: 1090px) {
+  .wrapper {
+    width: 375px;
+    height: 1409px;
+  }
+  .wrapper h1 {
+    position: absolute;
+    top: 71px;
+    left: 12px;
+    font-family: 'PT Serif';
+    font-weight: bold;
+  }
+  .wrapper h4 {
+    position: absolute;
+    top: 156px;
+    left: 12px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 600;
+  }
+  .wrapper p {
+    position: absolute;
+    top: 193px;
+    left: 12px;
+    width: 419px;
+    height: 87px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .wrapper div[class^='card-'] {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .wrapper div[class^='card-'] p {
+    position: relative;
+    height: auto;
+    width: auto;
+  }
+  .wrapper div[class^='card-'] p.role {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    font-family: 'PT Serif';
+    font-size: 12px;
+    line-height: 15.9px;
+    left: 135px;
+    top: 110px;
+  }
+  .wrapper div[class^='card-'] p.name {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    top: 350px;
+    left: 0px;
+  }
+  .wrapper .card-1 {
+    top: 244.5px;
+    left: -22px;
+  }
+  .wrapper .card-2 {
+    top: 396px;
+    left: 180px;
+  }
+  .wrapper .card-3 {
+    top: 619px;
+    left: -22px;
+  }
+  .wrapper .card-4 {
+    top: 730px;
+    left: 214px;
+  }
+  .wrapper .card-5 {
+    top: 930px;
+    left: -22px;
+  }
+  .wrapper .card-6 {
+    top: 1030px;
+    left: 214px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

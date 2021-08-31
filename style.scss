@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #fafafa;
+	background: #fafafa;
 }
 
 .wrapper {
@@ -45,102 +45,192 @@ body {
 		line-height: 27px;
 	}
 
-    div[class^="card-"] {
-        p {
-            position: relative;
-            height: auto;
-            width: auto;
-        }
+	div[class^='card-'] {
+		p {
+			position: relative;
+			height: auto;
+			width: auto;
+		}
 
-        p.role {
-            transform: rotate(90deg);
-            font-family: 'PT Serif';
-            font-size: 12px;
-            line-height: 15.9px;
-            left: 135px;
-            top: 110px;
-        }
+		p.role {
+			transform: rotate(90deg);
+			font-family: 'PT Serif';
+			font-size: 12px;
+			line-height: 15.9px;
+			left: 135px;
+			top: 110px;
+		}
 
-        p.name {
-            font-family: 'Poppins';
-            font-size: 18px;
-            font-weight: 600;
-            top: 350px;
-            left: 0px;
-        }
-    }
+		p.name {
+			font-family: 'Poppins';
+			font-size: 18px;
+			font-weight: 600;
+			top: 350px;
+			left: 0px;
+		}
+	}
 
 	.card-1 {
 		position: absolute;
 		top: 244.5px;
-        left: 240px;
+		left: 240px;
 		width: 238px;
 		height: 426.5px;
-        padding-top: 68px;
+		padding-top: 68px;
 		background: url(./photo1.png) no-repeat;
-        background-size: cover;
-        background-origin: content-box;
+		background-size: cover;
+		background-origin: content-box;
 	}
 
-    .card-2 {
-        position: absolute;
+	.card-2 {
+		position: absolute;
 		top: 396px;
-        left: 534.6px;
-        width: 305px;
+		left: 534.6px;
+		width: 305px;
 		height: 421px;
-        padding: 33px 30.85px 91px 33.36px;
-        background: url(./photo2.png) no-repeat;
-        background-size: cover;
-        background-origin: content-box;
-    }
+		padding: 33px 30.85px 91px 33.36px;
+		background: url(./photo2.png) no-repeat;
+		background-size: cover;
+		background-origin: content-box;
+	}
 
-    
-
-    .card-3 {
-        position: absolute;
+	.card-3 {
+		position: absolute;
 		top: 312px;
-        left: 900px;
+		left: 900px;
 		width: 238px;
 		height: 426.5px;
-        padding-bottom: 70px;
-        background: url(./photo3.png) no-repeat;
-        background-size: cover;
-        background-origin: content-box;
-    }
+		padding-bottom: 70px;
+		background: url(./photo3.png) no-repeat;
+		background-size: cover;
+		background-origin: content-box;
+	}
 
-    .card-4 {
-        position: absolute;
+	.card-4 {
+		position: absolute;
 		top: 860px;
-        left: 241px;
+		left: 241px;
 		width: 238px;
 		height: 426.5px;
-        padding-bottom: 70px;
-        background: url(./photo4.png) no-repeat;
-        background-size: cover;
-        background-origin: content-box;
-    }
+		padding-bottom: 70px;
+		background: url(./photo4.png) no-repeat;
+		background-size: cover;
+		background-origin: content-box;
+	}
 
-    .card-5 {
-        position: absolute;
+	.card-5 {
+		position: absolute;
 		top: 944px;
-        left: 570px;
+		left: 570px;
 		width: 238px;
 		height: 426.5px;
-        padding-bottom: 70px;
-        background: url(./photo5.png) no-repeat;
-        background-size: cover;
-        background-origin: content-box;
-    }
+		padding-bottom: 70px;
+		background: url(./photo5.png) no-repeat;
+		background-size: cover;
+		background-origin: content-box;
+	}
 
-    .card-6 {
-        position: absolute;
+	.card-6 {
+		position: absolute;
 		top: 860px;
-        left: 901px;
+		left: 901px;
 		width: 238px;
 		height: 426.5px;
-        padding-bottom: 70px;
-        background: url(./photo6.png) no-repeat;
-        background-size: cover;
-        background-origin: content-box;
-    }
+		padding-bottom: 70px;
+		background: url(./photo6.png) no-repeat;
+		background-size: cover;
+		background-origin: content-box;
+	}
+}
+
+@media only screen and (max-width: 1090px) {
+	.wrapper {
+		width: 375px;
+		height: 1409px;
+
+		h1 {
+			position: absolute;
+			top: 71px;
+			left: 12px;
+			font-family: 'PT Serif';
+			font-weight: bold;
+		}
+
+		h4 {
+			position: absolute;
+			top: 156px;
+			left: 12px;
+			font-size: 18px;
+			font-family: 'Poppins';
+			font-weight: 600;
+		}
+
+		p {
+			position: absolute;
+			top: 193px;
+			left: 12px;
+			width: 419px;
+			height: 87px;
+			font-family: 'Poppins';
+			font-size: 18px;
+			line-height: 27px;
+		}
+
+		div[class^='card-'] {
+            transform: scale(0.7);
+
+			p {
+				position: relative;
+				height: auto;
+				width: auto;
+			}
+
+			p.role {
+				transform: rotate(90deg);
+				font-family: 'PT Serif';
+				font-size: 12px;
+				line-height: 15.9px;
+				left: 135px;
+				top: 110px;
+			}
+
+			p.name {
+				font-family: 'Poppins';
+				font-size: 18px;
+				font-weight: 600;
+				top: 350px;
+				left: 0px;
+			}
+		}
+
+		.card-1 {
+			top: 244.5px;
+			left: -22px;
+		}
+
+		.card-2 {
+			top: 396px;
+			left: 180px;
+		}
+
+		.card-3 {
+			top: 619px;
+			left: -22px;
+		}
+
+		.card-4 {
+			top: 730px;
+			left: 214px;
+		}
+
+		.card-5 {
+			top: 930px;
+			left: -22px;
+		}
+
+		.card-6 {
+			top: 1030px;
+			left: 214px;
+		}
+	}
 }
